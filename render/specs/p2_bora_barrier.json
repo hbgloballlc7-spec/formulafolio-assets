@@ -1,14 +1,176 @@
-{"header": "Drunk Elephant Bora Barrier", "end_photo": "cream", "beats": [
- {"s": 0, "photo": "gelplates", "kicker": "Rich repair cream · 50 ml", "text": "", "color": "ox", "vis": {"type": "stat", "big": "$76", "small": "", "color": "ox"}},
- {"s": 1, "photo": "spec_33", "kicker": "On the page", "text": "“Clinically proven”", "color": "ox"},
- {"s": 2, "photo": "legal", "kicker": "Ask", "text": "Proven on who?", "color": "ox"},
- {"s": 3, "photo": "legal", "kicker": "Every claim, one asterisk", "text": "", "color": "ox", "vis": {"type": "stat", "big": "33", "small": "people in the one study", "color": "ox"}},
- {"s": 4, "photo": "cream", "kicker": "The barrier ingredient", "text": "Ceramides", "color": "teal"},
- {"s": 5, "photo": "swatch", "kicker": "Where they sit on the label", "text": "", "color": "teal", "vis": {"type": "rank", "rows": [{"label": "Bora Barrier · 62 ingredients", "total": 62, "hi": [40, 42], "note": "#40–42", "color": "ox"}]}},
- {"s": 6, "photo": "jar", "kicker": "Where they sit on the label", "text": "", "color": "teal", "vis": {"type": "rank", "rows": [{"label": "Bora Barrier · 62 ingredients", "total": 62, "hi": [40, 42], "note": "#40–42", "color": "ox", "at": 0}, {"label": "CeraVe $17 tub · 24 ingredients", "total": 24, "hi": [9, 11], "note": "#9–11", "color": "teal", "at": 0.4}]}},
- {"s": 7, "photo": "legal", "kicker": "Label order", "text": "A rough guide. A big gap.", "color": "amber"},
- {"s": 8, "photo": "gelplates", "kicker": "Folio verdict", "text": "", "color": "ox", "vis": {"type": "stamp", "text": "DEPENDS ON YOU", "color": "ox", "size": 72, "at": 0.4}},
- {"s": 9, "photo": "swatch", "kicker": "Love the rich texture?", "text": "Fine.", "color": "teal"},
- {"s": 11, "photo": "jar", "kicker": "Buying it for ceramides?", "text": "The tub wins.", "color": "teal"},
- {"s": 13, "photo": "cream", "kicker": "Price per ml", "text": "", "color": "teal", "vis": {"type": "bars", "rows": [{"label": "Bora Barrier", "value": 1.52, "text": "$1.52", "color": "ox"}, {"label": "CeraVe tub", "value": 0.04, "text": "$0.04", "color": "teal", "at": 1.0}]}},
- {"s": 14, "photo": "loupe", "kicker": "Stinging or peeling?", "text": "See a dermatologist", "color": "teal"}]}
+{
+ "header": "Drunk Elephant Bora Barrier",
+ "end_photo": "cream",
+ "beats": [
+  {
+   "s": 0,
+   "photo": "gelplates",
+   "kicker": "Rich repair cream · 50 ml",
+   "text": "",
+   "color": "ox",
+   "vis": {
+    "type": "stat",
+    "big": "$76",
+    "small": "",
+    "color": "ox"
+   }
+  },
+  {
+   "s": 1,
+   "photo": "spec_33",
+   "kicker": "On the page",
+   "text": "“Clinically proven”",
+   "color": "ox"
+  },
+  {
+   "s": 2,
+   "photo": "legal",
+   "kicker": "Ask",
+   "text": "Proven on who?",
+   "color": "ox"
+  },
+  {
+   "s": 3,
+   "photo": "justice",
+   "kicker": "Every claim, one asterisk",
+   "text": "",
+   "color": "ox",
+   "vis": {
+    "type": "stat",
+    "big": "33",
+    "small": "people in the one study",
+    "color": "ox"
+   }
+  },
+  {
+   "s": 4,
+   "photo": "cream",
+   "kicker": "The barrier ingredient",
+   "text": "Ceramides",
+   "color": "teal"
+  },
+  {
+   "s": 5,
+   "photo": "swatch",
+   "kicker": "Where they sit on the label",
+   "text": "",
+   "color": "teal",
+   "vis": {
+    "type": "rank",
+    "rows": [
+     {
+      "label": "Bora Barrier · 62 ingredients",
+      "total": 62,
+      "hi": [
+       40,
+       42
+      ],
+      "note": "#40–42",
+      "color": "ox"
+     }
+    ]
+   }
+  },
+  {
+   "s": 6,
+   "photo": "jar",
+   "kicker": "Where they sit on the label",
+   "text": "",
+   "color": "teal",
+   "vis": {
+    "type": "rank",
+    "rows": [
+     {
+      "label": "Bora Barrier · 62 ingredients",
+      "total": 62,
+      "hi": [
+       40,
+       42
+      ],
+      "note": "#40–42",
+      "color": "ox",
+      "at": 0
+     },
+     {
+      "label": "CeraVe $17 tub · 24 ingredients",
+      "total": 24,
+      "hi": [
+       9,
+       11
+      ],
+      "note": "#9–11",
+      "color": "teal",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "s": 7,
+   "photo": "legal",
+   "kicker": "Label order",
+   "text": "A rough guide. A big gap.",
+   "color": "amber"
+  },
+  {
+   "s": 8,
+   "photo": "gelplates",
+   "kicker": "Folio verdict",
+   "text": "",
+   "color": "ox",
+   "vis": {
+    "type": "stamp",
+    "text": "DEPENDS ON YOU",
+    "color": "ox",
+    "size": 72,
+    "at": 0.4
+   }
+  },
+  {
+   "s": 9,
+   "photo": "swatch",
+   "kicker": "Love the rich texture?",
+   "text": "Fine.",
+   "color": "teal"
+  },
+  {
+   "s": 11,
+   "photo": "jar",
+   "kicker": "Buying it for ceramides?",
+   "text": "The tub wins.",
+   "color": "teal"
+  },
+  {
+   "s": 13,
+   "photo": "cream",
+   "kicker": "Price per ml",
+   "text": "",
+   "color": "teal",
+   "vis": {
+    "type": "bars",
+    "rows": [
+     {
+      "label": "Bora Barrier",
+      "value": 1.52,
+      "text": "$1.52",
+      "color": "ox"
+     },
+     {
+      "label": "CeraVe tub",
+      "value": 0.04,
+      "text": "$0.04",
+      "color": "teal",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "s": 14,
+   "photo": "loupe",
+   "kicker": "Stinging or peeling?",
+   "text": "See a dermatologist",
+   "color": "teal"
+  }
+ ]
+}
