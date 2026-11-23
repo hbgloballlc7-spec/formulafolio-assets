@@ -112,7 +112,10 @@ def word_cues(voice):
     """Caption chunks (<=~16 chars) from faster-whisper word timestamps."""
     from faster_whisper import WhisperModel
     m = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(voice, word_timestamps=True, language="en")
+    import numpy as np
+    raw = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', voice, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'])
+    audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+    segs, _ = m.transcribe(audio, word_timestamps=True, language="en")
     words = [w for s in segs for w in s.words]
     cues = []; cur = [];
     for w in words:
