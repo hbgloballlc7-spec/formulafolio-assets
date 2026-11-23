@@ -1,12 +1,127 @@
-{"header": "CeraVe Moisturizing Cream", "end_photo": "jar", "beats": [
- {"s": 0, "photo": "spec_120h", "kicker": "The new claim", "text": "Up to 120 hours?", "color": "ox"},
- {"s": 1, "photo": "legal", "kicker": "Read the fine print", "text": "Where's the asterisk?", "color": "ox"},
- {"s": 2, "photo": "jar", "kicker": "Same tub", "text": "Same cream. New number.", "color": "teal"},
- {"s": 3, "photo": "swatch", "kicker": "On the label", "text": "Ceramides at 9 to 11", "color": "teal", "vis": {"type": "chips", "items": ["#7 Petrolatum", "#9 Ceramide NP", "#10 Ceramide AP", "#11 Ceramide EOP"]}},
- {"s": 4, "photo": "spec_120h", "kicker": "The ads", "text": "Up to 120 hours", "color": "ox"},
- {"s": 5, "photo": "legal", "kicker": "Same cream, two numbers", "text": "No published study for 120", "color": "ox", "vis": {"type": "bars", "rows": [{"label": "The ads: up to", "value": 120, "text": "120 h", "color": "ox"}, {"label": "Retailer listing", "value": 24, "text": "24 h", "color": "teal", "at": 1.2}]}},
- {"s": 6, "photo": "jar", "kicker": "Folio verdict", "text": "", "color": "teal", "vis": {"type": "stamp", "text": "PAY FOR IT", "color": "teal", "size": 84, "at": 0.4}},
- {"s": 7, "photo": "swatch", "kicker": "The value", "text": "", "color": "teal", "vis": {"type": "stat", "big": "$1/oz", "small": "for ceramides + petrolatum", "color": "teal"}},
- {"s": 8, "photo": "gels", "kicker": "But", "text": "Don't pay extra for “120 hours”", "color": "ox"},
- {"s": 9, "photo": "deep1", "focus": [0.5, 0.3], "kicker": "On deeper skin", "text": "Dryness can show as ash", "color": "amber"},
- {"s": 10, "photo": "loupe", "kicker": "If it doesn't settle", "text": "See a dermatologist", "color": "teal"}]}
+{
+ "header": "CeraVe Moisturizing Cream",
+ "end_photo": "jar",
+ "beats": [
+  {
+   "s": 0,
+   "photo": "spec_120h",
+   "kicker": "The new claim",
+   "text": "Up to 120 hours?",
+   "color": "ox"
+  },
+  {
+   "s": 1,
+   "photo": "legal",
+   "kicker": "Read the fine print",
+   "text": "Where's the asterisk?",
+   "color": "ox"
+  },
+  {
+   "s": 2,
+   "photo": "jar",
+   "kicker": "Same $17 tub",
+   "text": "Same cream. New number.",
+   "color": "teal"
+  },
+  {
+   "s": 3,
+   "photo": "swatch",
+   "kicker": "On the label",
+   "text": "Ceramides at 9 to 11",
+   "color": "teal",
+   "vis": {
+    "type": "chips",
+    "items": [
+     "#7 Petrolatum",
+     "#9 Ceramide NP",
+     "#10 Ceramide AP",
+     "#11 Ceramide EOP"
+    ]
+   }
+  },
+  {
+   "s": 4,
+   "photo": "spec_120h",
+   "kicker": "The ads",
+   "text": "Up to 120 hours",
+   "color": "ox"
+  },
+  {
+   "s": 5,
+   "photo": "legal",
+   "kicker": "Same cream, two numbers",
+   "text": "No published study for 120",
+   "color": "ox",
+   "vis": {
+    "type": "bars",
+    "rows": [
+     {
+      "label": "The ads: up to",
+      "value": 120,
+      "text": "120 h",
+      "color": "ox"
+     },
+     {
+      "label": "Retailer listing",
+      "value": 24,
+      "text": "24 h",
+      "color": "teal",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "s": 6,
+   "photo": "jar",
+   "kicker": "Folio verdict",
+   "text": "",
+   "color": "teal",
+   "vis": {
+    "type": "stamp",
+    "text": "PAY FOR IT",
+    "color": "teal",
+    "size": 84,
+    "at": 0.4
+   }
+  },
+  {
+   "s": 7,
+   "photo": "swatch",
+   "kicker": "The value",
+   "text": "",
+   "color": "teal",
+   "vis": {
+    "type": "stat",
+    "big": "$1/oz",
+    "small": "for ceramides + petrolatum",
+    "color": "teal"
+   }
+  },
+  {
+   "s": 8,
+   "photo": "gels",
+   "kicker": "But",
+   "text": "Don't pay extra for “120 hours”",
+   "color": "ox"
+  },
+  {
+   "s": 9,
+   "photo": "deep1",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "kicker": "On deeper skin",
+   "text": "Dryness can show as ash",
+   "color": "amber"
+  },
+  {
+   "s": 10,
+   "photo": "lab",
+   "kicker": "If it doesn't settle",
+   "text": "See a dermatologist",
+   "color": "teal"
+  }
+ ]
+}
