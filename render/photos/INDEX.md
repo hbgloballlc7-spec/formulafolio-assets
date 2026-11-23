@@ -10,3 +10,4 @@ patentart: Folio patent card over serum · spec_120h / spec_33: Folio specimen c
 Removed: loupe (bare-shoulder close-up trips the nudity check). Avoid skin close-ups that show shoulders/chest.
 Removed: jar (its label reads WHITENING CREAM). Check every photo for visible third-party labels before use.
 Removed: legal (it is a cocktail menu with a venue name). Added: spec_fineprint (Folio fine-print card).
+Removed after server audit: shelf, dropper2, sunarm, bath, hook (visible brands); eyecream (nudity-check risk).
