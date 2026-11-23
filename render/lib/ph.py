@@ -29,7 +29,8 @@ def cover(key, w, h, p=0.0, focus=(0.5, 0.5), z0=1.0, z1=1.07):
     base = max(w / sw, h / sh); z = z0 + (z1 - z0) * p
     cw, ch = w / (base * z), h / (base * z)
     cx = min(max(focus[0] * sw, cw / 2), sw - cw / 2); cy = min(max(focus[1] * sh, ch / 2), sh - ch / 2)
-    box = (cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2)
+    cw, ch = min(cw, sw), min(ch, sh)
+    box = (max(0.0, cx - cw / 2), max(0.0, cy - ch / 2), min(float(sw), cx + cw / 2), min(float(sh), cy + ch / 2))
     return im.resize((w, h), Image.LANCZOS, box=box, reducing_gap=2.0)
 
 def schedule(t, items, end, fade=0.7):
