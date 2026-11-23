@@ -124,6 +124,10 @@ def word_cues(voice):
         if len(txt) >= 14 or txt[-1:] in ',.?!:':
             cues.append([cur[0].start, cur[-1].end, txt]); cur = []
     if cur: cues.append([cur[0].start, cur[-1].end, ''.join(x.word for x in cur).strip()])
+    fixes = {'Folioverdict': 'Folio verdict', 'Folio verdict?': 'Folio verdict:', 'Folio Verdict': 'Folio verdict',
+             'Formula Folio?': 'Formula Folio.', 'Sarah V': 'CeraVe', 'Sarah Vee': 'CeraVe', 'Cera V': 'CeraVe', 'Sera V': 'CeraVe'}
+    for c in cues:
+        for k, v in fixes.items(): c[2] = c[2].replace(k, v)
     for i in range(len(cues) - 1):  # close small gaps
         if cues[i + 1][0] - cues[i][1] < 0.35: cues[i][1] = cues[i + 1][0]
     return cues
