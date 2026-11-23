@@ -1,6 +1,6 @@
 {
  "header": "CeraVe Moisturizing Cream",
- "end_photo": "jar",
+ "end_photo": "cream",
  "beats": [
   {
    "s": 0,
@@ -18,7 +18,7 @@
   },
   {
    "s": 2,
-   "photo": "jar",
+   "photo": "gelplates",
    "kicker": "Same $17 tub",
    "text": "Same cream. New number.",
    "color": "teal"
@@ -73,7 +73,7 @@
   },
   {
    "s": 6,
-   "photo": "jar",
+   "photo": "palmdrop",
    "kicker": "Folio verdict",
    "text": "",
    "color": "teal",

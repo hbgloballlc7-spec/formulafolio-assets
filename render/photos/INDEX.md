@@ -8,3 +8,4 @@ patchglove/patcharm: skin patch test · reader: woman with magnifier · research
 shelf: product shelf · sunarm/sunface: sunlight on skin · swatch: cream swatch · young1-3: younger women portraits
 patentart: Folio patent card over serum · spec_120h / spec_33: Folio specimen claim cards · ai_onepct/ai_oxid: AI labeled bottles
 Removed: loupe (bare-shoulder close-up trips the nudity check). Avoid skin close-ups that show shoulders/chest.
+Removed: jar (its label reads WHITENING CREAM). Check every photo for visible third-party labels before use.
