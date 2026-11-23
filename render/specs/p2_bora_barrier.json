@@ -24,7 +24,7 @@
   },
   {
    "s": 2,
-   "photo": "legal",
+   "photo": "spec_fineprint",
    "kicker": "Ask",
    "text": "Proven on who?",
    "color": "ox"
@@ -107,14 +107,14 @@
   },
   {
    "s": 7,
-   "photo": "legal",
+   "photo": "spec_fineprint",
    "kicker": "Label order",
    "text": "A rough guide. A big gap.",
    "color": "amber"
   },
   {
    "s": 8,
-   "photo": "gelplates",
+   "photo": "palmdrop",
    "kicker": "Folio verdict",
    "text": "",
    "color": "ox",

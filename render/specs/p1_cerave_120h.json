@@ -11,14 +11,14 @@
   },
   {
    "s": 1,
-   "photo": "legal",
+   "photo": "spec_fineprint",
    "kicker": "Read the fine print",
    "text": "Where's the asterisk?",
    "color": "ox"
   },
   {
    "s": 2,
-   "photo": "gelplates",
+   "photo": "cream",
    "kicker": "Same $17 tub",
    "text": "Same cream. New number.",
    "color": "teal"
@@ -48,7 +48,7 @@
   },
   {
    "s": 5,
-   "photo": "legal",
+   "photo": "spec_fineprint",
    "kicker": "Same cream, two numbers",
    "text": "No published study for 120",
    "color": "ox",
