@@ -1,0 +1,31 @@
+# Motion swap: AI-motion versions swapped in, 2026-11-26 10:07-10:20 CT
+
+RESULT: all 8 files were swapped. Only 2 kept their approval (ff-v1-s3 and ff-v2-s1).
+The other 6 were HELD by the CLI's `replace` safety rule. Each new file has a new flag:
+"human-looking face on screen - voice-only rule: no AI avatars".
+The face clearance given to the original launch files does not carry over to replacement files.
+An approval only comes back if Marcus approves again:
+    python -m folio.approve approve <id> --note "..."
+If he doesn't, the held items will NOT post at their slots.
+No approvals were overridden in this session.
+
+id        | scheduled (CT)    | approved | status   | sha256 (12) | flag added by the swap
+ff-v1     | 2026-12-07 11:00  | 0        | held     | 835f06f94afd | face on screen (5 frames, first at 10s)
+ff-v1-s1  | 2026-12-08 12:15  | 0        | held     | 2e9433b1da36 | face on screen (4 frames, first at 9s)
+ff-v1-s2  | 2026-12-09 12:15  | 0        | held     | 4d1a2953ef6c | face on screen (11 frames, first at 17s)
+ff-v1-s3  | 2026-12-10 12:15  | 1        | approved | 86acaf6b5f58 | -
+ff-v2     | 2026-12-14 11:00  | 0        | held     | 1780bc08a43b | face on screen (12 frames, first at 15s); still also has its earlier 'clinically proven' / 'treats' flags
+ff-v2-s1  | 2026-12-15 12:15  | 1        | approved | 61faa370aac8 | -
+ff-v2-s2  | 2026-12-16 12:15  | 0        | held     | efb6e1d56947 | face on screen (7 frames, first at 21s); still also has its earlier 'no original on-screen number' flag
+ff-v2-s3  | 2026-12-17 12:15  | 0        | held     | 0bedc5ce7f47 | face on screen (7 frames, first at 41s)
+
+Checks:
+- ffprobe on each stored file: every duration is > 0 (280.39 / 42.03 / 65.46 / 37.13 / 310.06 / 46.96 / 30.46 / 59.16 s) and each file has an AAC audio stream.
+- sha256 of each stored file matches its copy in the kit repo (kit-repo commit b10173d). All 8 match.
+- Compared with a DB backup taken right before the swap: the slots (times and platforms) are unchanged.
+- Title, description, thumbnail and SRT are unchanged for all 8.
+- Only these changed: file path, duration/prices metadata, and, for the held items, the status, approved and flags fields.
+- Telegram: no cards or messages sent. The CLI only edits existing cards in place, which does not notify.
+  Note: the bot's existing 9:00 AM CT silent digest lists held items, so tomorrow's digest will include these 6.
+- Before the swap: ff-p1-v4 was approved and scheduled 2026-11-27 12:15 CT. It was not touched.
+- DB backup from before the swap: /srv/folio/state.db.pre-motion-swap-1795709229
